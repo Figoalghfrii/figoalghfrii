@@ -50,39 +50,22 @@ My work and learning interests revolve around:
 ![Docker](https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=white)
 ![NVIDIA](https://img.shields.io/badge/NVIDIA_DALI-111111?style=flat-square&logo=nvidia&logoColor=white)
 
-## Selected Work
+## Research & Experiments
 
-### Research & Feature Selection
+I explore machine learning through implementation-driven research and controlled experiments, with an emphasis on understanding model behavior, evaluating trade-offs, and producing reproducible results.
 
-**[DIRA — Noise-Tolerant Fuzzy-Rough Feature Selection](https://github.com/Figoalghfrii/dira-feature-selection)**
+- **Feature Selection & Robust Learning** — Exploring noise-tolerant fuzzy-rough feature selection, weighted margins, and three-way decision strategies through [DIRA](https://github.com/Figoalghfrii/dira-feature-selection).
+- **Data Pipeline Performance** — Comparing storage and loading strategies such as HDF5, WebDataset, and LMDB, while measuring throughput, latency, and memory usage in the [Data Loading Benchmark](https://github.com/Figoalghfrii/dataloader-benchmark-tool).
+- **Image Augmentation** — Evaluating augmentation configurations and their impact on model performance and training efficiency in the [Image Augmentation Benchmark](https://github.com/Figoalghfrii/data-pipeline-augmentation-benchmark).
+- **Computer Vision** — Experimenting with face representation learning, metric learning, and verification using [ArcFace](https://github.com/Figoalghfrii/arcface-vision-engine-v2) and [Siamese Networks](https://github.com/Figoalghfrii/siamese-face-verification-lfw).
+- **Fundamentals from Scratch** — Implementing neural network components with NumPy to better understand forward propagation, backpropagation, and optimization in [Neural Network Playground](https://github.com/Figoalghfrii/neural-network-from-scratch).
 
-Research implementation exploring weighted fuzzy-rough feature selection and three-way decision strategies. Includes multi-dataset experiments, noise-level evaluation, baseline comparisons, and non-parametric statistical testing.
+My experiments typically focus on:
 
-### Data Pipeline Experiments
-
-**[Image Augmentation Benchmark](https://github.com/Figoalghfrii/data-pipeline-augmentation-benchmark)**
-
-A comparative experiment of seven image augmentation configurations using `torchvision.transforms.v2` and LMDB, evaluating model metrics alongside throughput, latency, and GPU memory.
-
-**[Data Loading Benchmark Tool](https://github.com/Figoalghfrii/dataloader-benchmark-tool)**
-
-A reusable benchmark tool comparing ImageFolder, HDF5, WebDataset, and LMDB loading strategies with a consistent preprocessing and measurement workflow.
-
-### Computer Vision & Deep Learning
-
-**[ArcFace Vision Engine v2](https://github.com/Figoalghfrii/arcface-vision-engine-v2)**
-
-Face recognition and verification system built with ResNet-18, ArcFace Loss, normalized embeddings, and a Streamlit interface.
-
-**[Siamese Face Verification on LFW](https://github.com/Figoalghfrii/siamese-face-verification-lfw)**
-
-Siamese Network implementation using contrastive learning, transfer learning, RAM caching, and evaluation with Accuracy, ROC-AUC, and EER.
-
-### From-Scratch ML Implementation
-
-**[Neural Network Playground](https://github.com/Figoalghfrii/neural-network-from-scratch)**
-
-An educational neural network implementation using NumPy, covering layers, activation functions, loss functions, backpropagation, and SGD with momentum.
+- Establishing clear baselines and evaluation metrics
+- Measuring accuracy alongside computational efficiency
+- Comparing approaches under consistent experimental settings
+- Documenting methodology, limitations, and findings
 
 ## Research Interests
 
@@ -90,14 +73,6 @@ An educational neural network implementation using NumPy, covering layers, activ
 - **Computer Vision:** image processing, face representation learning, and image super-resolution.
 - **Data Engineering:** data loading systems, ETL, storage formats, and pipeline optimization.
 - **Performance Engineering:** throughput, latency, memory usage, and efficient model training.
-
-## GitHub Overview
-
-<div align="center">
-
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=Figoalghfrii&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true&count_private=true&theme=transparent&title_color=ffffff&text_color=aaaaaa&icon_color=ffffff" alt="GitHub statistics" />
-
-</div>
 
 ---
 
