@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050505"/><stop offset="1" stop-color="#171717"/></linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#777" opacity=".42"/></pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity=".03"/><stop offset=".55" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity=".02"/></linearGradient>
+  </defs>
+  <rect width="1600" height="420" fill="url(#bg)"/>
+  <path d="M0 270 C220 90 360 390 590 220 S980 90 1190 235 S1430 330 1600 150 L1600 420 L0 420Z" fill="url(#dots)"/>
+  <path d="M0 270 C220 90 360 390 590 220 S980 90 1190 235 S1430 330 1600 150" fill="none" stroke="url(#fade)" stroke-width="2"/>
+  <g fill="#f5f5f5" font-family="Arial, Helvetica, sans-serif">
+    <text x="100" y="112" font-size="24" letter-spacing="6" fill="#aaa">FIGO AL GHIFARI</text>
+    <text x="100" y="205" font-size="58" font-weight="700">Data Science &amp;</text>
+    <text x="100" y="275" font-size="58" font-weight="700">Machine Learning Enthusiast</text>
+    <text x="102" y="335" font-size="21" letter-spacing="2" fill="#bdbdbd">RESEARCH  /  PROJECTS  /  TECHNICAL EXPERIMENTS</text>
+  </g>
+  <g stroke="#777" fill="none" opacity=".8"><path d="M1450 72h48v48M1550 72h-48v48M1450 348h48v-48M1550 348h-48v-48"/></g>
+</svg>
