@@ -67,6 +67,15 @@ My experiments typically focus on:
 - Comparing approaches under consistent experimental settings
 - Documenting methodology, limitations, and findings
 
+## Collaborative Projects
+
+Alongside individual research, I have collaborated on team projects involving data engineering, AI systems, and software development.
+
+- **OBOR — Wildfire Intelligence System** — Contributed to the data engineering workflow by sourcing multi-origin datasets, including satellite observations, cleaning and preparing the data, and integrating it into the project's analytical data warehouse. The broader system combines wildfire monitoring, risk analysis, and multi-agent coordination. [Repository](https://github.com/ProsperousJoy/obor)
+- **Nusantara Retail Group Data Warehouse** — Developed ETL transformations for the fact tables (t_07–t_09), the main Pentaho orchestration job, and SQL queries used to validate business results across integrated retail data sources. [Repository](https://github.com/ramirezzServer/nrg-data-warehouse)
+- **OurTucTuc — Campus Mobility System** — Collaborated on a Laravel-based shuttle management application. My documented contribution includes work on the vehicle management module, within a system covering routes, stops, schedules, and passenger services. [Repository](https://github.com/ramirezzServer/ourtuctuc-mobility-system)
+- **SI4810-KELF — Team Software Project** — Implemented the admin account suspension and reactivation feature (PBI-19), contributing to role-based user administration in the team's application. [Repository](https://github.com/SI4810-PPL-KelompokF/SI4810-KELF)
+
 ## Research Interests
 
 - **Machine Learning:** feature selection, model evaluation, and experimental methodology.
@@ -78,6 +87,6 @@ My experiments typically focus on:
 
 <div align="center">
 
-*Research · Projects · Technical Experiments*
+*Research · Collaboration · Technical Experiments*
 
 </div>
